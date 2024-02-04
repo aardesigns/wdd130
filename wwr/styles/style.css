@@ -1,4 +1,7 @@
-
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 h4 {
     color: black;
