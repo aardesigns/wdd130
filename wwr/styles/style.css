@@ -11,6 +11,9 @@ nav a {
     color:#A3D4F5;
     text-decoration: none;
 }
+#hero-img {
+    width: 100%
+}
 #hero-msg h1 {
     text-align: center;
 }
