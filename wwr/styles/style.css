@@ -238,3 +238,84 @@ main section img{
         margin-top: 25px;
     }
 }
+
+.rates 1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+.rates 2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.rates 3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.rates 4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.scenic_1 {
+    align-content: center;
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scenic_2 {
+    align-content: center;
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scenic_3 {
+    align-content: center;
+    border: 10px solid #d9c2a3;
+    width: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scenic_4 {
+    align-content: center;
+    border: 10px solid #d9c2a3;
+    width: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.Prices {
+    background-color: #F8F4A6;
+    grid-row: 1/4;
+}
+
+.April {
+    grid-column: 2/4;
+}
+
+.May {
+    grid-column: 2/4;
+}
+
+.June {
+    grid-column: 2/4;
+}
+
+.July {
+    grid-column: 2/4;
+}
+
+.August {
+    grid-column: 2/4;
+}
+
+.September {
+    grid-column: 2/4;
+}
