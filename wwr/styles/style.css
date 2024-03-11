@@ -14,6 +14,10 @@ h2 {
     text-align: center;
     color:#6f7364;
 }
+p {
+    text-align:center;
+    color:black;
+}
 nav a {
     text-align: center;
     color:#A3D4F5;
@@ -244,6 +248,13 @@ main section img{
     }
 }
 
+#scenery {
+    width: 90%;
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 .rates1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -266,34 +277,6 @@ main section img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-}
-
-.scenic_1 {
-    align-content: center;
-    border: 10px solid #d9c2a3;
-    width: 100%;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.scenic_2 {
-    align-content: center;
-    border: 10px solid #d9c2a3;
-    width: 100%;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.scenic_3 {
-    align-content: center;
-    border: 10px solid #d9c2a3;
-    width: auto;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.scenic_4 {
-    align-content: center;
-    border: 10px solid #d9c2a3;
-    width: auto;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .Prices1 {
