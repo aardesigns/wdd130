@@ -1,4 +1,4 @@
-content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -14,10 +14,7 @@ h2 {
     text-align: center;
     color:#6f7364;
 }
-p {
-    text-align:center;
-    color:black;
-}
+
 nav a {
     text-align: center;
     color:#A3D4F5;
@@ -254,6 +251,14 @@ main section img{
     footer {
         margin-top: 25px;
     }
+}
+
+.rates-title {
+    text-align: center;
+    font-family: Satisfy, Helvetica, sans-serif;
+    font-size: 2em;
+    color:#478978;
+    margin-top: 10px;
 }
 
 #scenery {
