@@ -82,6 +82,12 @@ header {
     color:#478978;
     margin-top: 10px;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    column-gap: 75px;
+}
 nav a:hover {
     color:#1e21c4;
 }
@@ -115,6 +121,8 @@ nav a:hover {
 }
 #background {
     background-color: #F8F4A6;
+    grid-column: 1/11;
+    grid-row: 4-9;
 }
 .msg {
     background-color:#EDE8EC;
@@ -325,6 +333,14 @@ main section img{
 
 .September {
     grid-column: 2/4;
+}
+
+.contact-title {
+    text-align: center;
+    font-family: Satisfy, Helvetica, sans-serif;
+    font-size: 2em;
+    color:#478978;
+    margin-top: 10px;
 }
 
 form {
