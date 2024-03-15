@@ -261,8 +261,33 @@ main section img{
     margin-top: 10px;
 }
 
-#scenery {
-    width: 90%;
+.scenery-canyon1 {
+    align-content: center;
+    width: 75%;
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scenery-canyon2 {
+    align-content: center;
+    width: 75%;
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scenery-river1 {
+    align-content: center;
+    width: 75%;
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scenery-river2 {
+    align-content: center;
+    width: 75%;
     border: 10px solid #d9c2a3;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
