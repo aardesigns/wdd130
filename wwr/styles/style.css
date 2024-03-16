@@ -348,7 +348,6 @@ main section img{
 
 .Prices3 {
     align-content: center;
-    align-items:baseline
     background-color: #F8F4A6;
     grid-column: 2/3;
     grid-row: 1/3;
