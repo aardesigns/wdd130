@@ -262,25 +262,36 @@ main section img{
 }
 
 .scenery-canyon1 {
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     border: 10px solid #d9c2a3;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
 .scenery-canyon2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     border: 10px solid #d9c2a3;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
 .scenery-river1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     border: 10px solid #d9c2a3;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
 .scenery-river2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     border: 10px solid #d9c2a3;
     box-shadow: 5px 5px 10px #6f7364;
@@ -288,28 +299,28 @@ main section img{
 
 .rates1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
   }
 
 .rates2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr1fr;
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
 }
 
 .rates3 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
 }
 
 .rates4 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
 }
@@ -322,6 +333,7 @@ main section img{
 .Prices1 {
     align-content: center;
     background-color: #F8F4A6;
+    grid-column: 2/3;
     grid-row: 1/7;
     width: 100%;
 }
@@ -329,51 +341,55 @@ main section img{
 .Prices2 {
     align-content: center;
     background-color: #F8F4A6;
+    grid-column: 2/3;
     grid-row: 1/7;
     width: 100%;
 }
 
 .Prices3 {
     align-content: center;
+    align-items:baseline
     background-color: #F8F4A6;
+    grid-column: 2/3;
     grid-row: 1/3;
     width: 100%;
 }
 .Prices4 {
     align-content: center;
     background-color: #F8F4A6;
+    grid-column: 2/3;
     grid-row: 1/4;
     width: 100%;
 }
 
 
 .April {
-    grid-column: 2/4;
+    grid-column: 3/4;
     text-align: left;
 }
 
 .May {
-    grid-column: 2/4;
+    grid-column: 3/4;
     text-align: left;
 }
 
 .June {
-    grid-column: 2/4;
+    grid-column: 3/4;
     text-align: left;
 }
 
 .July {
-    grid-column: 2/4;
+    grid-column: 3/4;
     text-align: left;
 }
 
 .August {
-    grid-column: 2/4;
+    grid-column: 3/4;
     text-align: left;
 }
 
 .September {
-    grid-column: 2/4;
+    grid-column: 3/4;
     text-align: left;
 }
 
