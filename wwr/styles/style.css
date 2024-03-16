@@ -348,26 +348,32 @@ main section img{
 
 .April {
     grid-column: 2/4;
+    text-align: left;
 }
 
 .May {
     grid-column: 2/4;
+    text-align: left;
 }
 
 .June {
     grid-column: 2/4;
+    text-align: left;
 }
 
 .July {
     grid-column: 2/4;
+    text-align: left;
 }
 
 .August {
     grid-column: 2/4;
+    text-align: left;
 }
 
 .September {
     grid-column: 2/4;
+    text-align: left;
 }
 
 .contact-title {
