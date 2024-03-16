@@ -286,40 +286,43 @@ main section img{
 }
 
 .rates1 {
-    align-content: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
   }
 
 .rates2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
 }
 
 .rates3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
 }
 
 .rates4 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.price-list {
+    text-align: center;
+    justify-content: flex-end;
 }
 
 .Prices1 {
-    align-content:center;
+    align-content: center;
     background-color: #F8F4A6;
     grid-row: 1/7;
-    grid-column: 1/2;
-    width: fit-content;
+    width: 100%;
 }
 
 .Prices2 {
