@@ -262,6 +262,7 @@ main section img{
 }
 
 .scenery-canyon1 {
+    align-items: center;
     width: 75%;
     border: 10px solid #d9c2a3;
     box-shadow: 5px 5px 10px #6f7364;
