@@ -81,8 +81,8 @@ header {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     column-gap: 75px;
 }
 nav a:hover {
