@@ -1,1 +1,34 @@
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Satisfy", Baguet Script, Freestyle script, georgia;
+}
+body {
+    background-color: #FFFAEA;
+    font-family: Open Sans, Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #5D576B;
+    color:#8884FF;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color:#FFCE0A;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color:#FFE999;
+}
