@@ -72,9 +72,12 @@ nav a:hover {
 .home-grid {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: 75px;
+}
+.linkedin {
+    width: 65px;
 }
 .sketches {
     margin: 200px 0;
