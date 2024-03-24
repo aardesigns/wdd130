@@ -9,6 +9,7 @@ nav {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Satisfy, Baguet Script, Freestyle script, georgia;
+    color: #D7BCE8;
 }
 p {
     color: #5D576B;
@@ -46,12 +47,23 @@ nav a:hover {
 }
 .msg {
     background-color:#8884FF;
-    color:#FFCE0A;
+    color:#FFE999;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.msg p {
+    font-family: Open Sans, Lato, Helvetica, sans-serif;
+    font-size: .8em;
+    color:#5D576B;
+    padding-bottom: 15px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: repeat (6, 1fr);
 }
 footer {
     background-color: #5D576B;
@@ -80,4 +92,35 @@ footer p a:hover {
 }
 .logo{
     width: 150px;
+}
+@media screen and (max-width: 900px) {
+    #hero-img, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .sketch-card, .animation-card, .physical-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
