@@ -83,7 +83,6 @@ nav a:hover {
     width: 65px;
 }
 .sketches {
-    margin: 200px 0;
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -92,7 +91,6 @@ nav a:hover {
     grid-row: 1/2;
 }
 .physical {
-    margin: 200px 0;
     grid-column: 3/4;
     grid-row: 2/3;
 }
@@ -102,7 +100,6 @@ nav a:hover {
     grid-row: 2/3;
 }
 .animation {
-    margin: 200px 0;
     grid-column: 1/2;
     grid-row: 3/4;
 }
