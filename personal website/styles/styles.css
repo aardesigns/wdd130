@@ -37,6 +37,9 @@ nav a:hover {
     color:#FFE999;
 }
 #hero-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%
 }
 .home-title {
