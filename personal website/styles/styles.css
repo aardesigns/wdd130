@@ -136,6 +136,13 @@ nav a:hover {
     overflow: hidden;
 }
 
+.animation-example {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 video {
     display: block;
     margin-left: auto;
