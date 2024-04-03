@@ -41,6 +41,7 @@ nav a:hover {
     color:#FFE999;
 }
 #hero-img {
+    box-sizing: border-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,6 +72,7 @@ nav a:hover {
     padding-bottom: 15px;
 }
 .card-img{
+    box-sizing: border-box;
     border: 10px solid #5D576B;
     width: 100%;
     transition: transform .5s;
