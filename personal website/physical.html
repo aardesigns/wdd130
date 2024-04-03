@@ -27,25 +27,8 @@
             <p>This section is dedicated to the more tangible pieces I've made. I find it very satisfying to be able to make something and to see the result of the work.</p>
         </section>
 
-        <div class="row">
-            <div class="column">
-                <img id="dress1-img" src="images/Bunny_Sitting.png" alt="Bunny in dress 1" onclick="myFunction(this);">
-            </div>
-            <div class="column">
-                <img id="dress2-img" src="images/Bunny_Standing.png" alt="Bunny in dress 2" onclick="myFunction(this);">
-            </div>
-        </div>
-
-        <div class="container">
-            <!-- Close the image -->
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-          
-            <!-- Expanded image -->
-            <img id="expandedImg" style="width:100%">
-          
-            <!-- Image text -->
-            <div id="imgtext"></div>
-        </div>
+        <img id="dress1-img" src="images/Bunny_Sitting.png" alt="Bunny in dress 1">
+        <img id="dress2-img" src="images/Bunny_Standing.png" alt="Bunny in dress 2">
 
         <h2>Star dress</h2>
         <p>While learning how to sew clothes, I made a couple of outfits for my Buil-A-Bear plush. Made from left over fabric from a revious project, this dress is my favorite.</p>
@@ -67,19 +50,6 @@
             <h2>Bracelets</h2>
             <p>Some more of my beaded work, this time featuring two bracelets.</p>
         </div>
-
-        function myFunction(imgs) {
-            // Get the expanded image
-            var expandImg = document.getElementById("expandedImg");
-            // Get the image text
-            var imgText = document.getElementById("imgtext");
-            // Use the same src in the expanded image as the image being clicked on from the grid
-            expandImg.src = imgs.src;
-            // Use the value of the alt attribute of the clickable image as text inside the expanded image
-            imgText.innerHTML = imgs.alt;
-            // Show the container element (hidden with CSS)
-            expandImg.parentElement.style.display = "block";
-        }
 
         <footer>
             <p>2024 - Alma Reynolds</p>
