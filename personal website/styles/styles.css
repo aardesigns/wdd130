@@ -114,9 +114,10 @@ nav a:hover {
 .close {
     text-align: center;
 }
+
 .accordion {
-    background-color: #E8CEE4;
-    color: #8884FF;
+    background-color: #716B7E;
+    color: #D7BCE8;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -126,13 +127,20 @@ nav a:hover {
     transition: 0.4s;
 }
 .active, .accordion:hover {
-    background-color: #E8CEE4;
+    background-color: #AAA7B5;
 }
 .panel {
     padding: 0 18px;
     background-color: #FFFAEA;
     display: none;
     overflow: hidden;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 footer {
