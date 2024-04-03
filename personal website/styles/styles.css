@@ -7,7 +7,11 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+    font-family: Satisfy, Baguet Script, Freestyle script, georgia;
+    color: #8884FF;
+}
+h4, h5, h6 {
     font-family: Satisfy, Baguet Script, Freestyle script, georgia;
     color: #D7BCE8;
 }
@@ -54,8 +58,8 @@ nav a:hover {
 }
 .msg {
     width: fit-content;
-    background-color:#8884FF;
-    color:#FFE999;
+    background-color:#FDE2FF;
+    color:#FFCE0A;
     line-height: 1.5em;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
@@ -110,6 +114,27 @@ nav a:hover {
 .close {
     text-align: center;
 }
+.accordion {
+    background-color: #E8CEE4;
+    color: #8884FF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #E8CEE4;
+}
+.panel {
+    padding: 0 18px;
+    background-color: #FFFAEA;
+    display: none;
+    overflow: hidden;
+}
+
 footer {
     background-color: #5D576B;
     color:#8884FF;

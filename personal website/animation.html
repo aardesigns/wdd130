@@ -16,7 +16,7 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="sketches.html">Sketches</a>
-                <a href="physical.html">Physical pieces</a>
+                <a href="physical.html">Physical Pieces</a>
                 <a href="animation.html">Animation</a>
                 <a href="aboutme.html">About Me</a>
             </nav>
@@ -27,21 +27,31 @@
         <h2>Principles of Animation</h2>
         <p>The Principles of Animation are the basics that give any animated piece life. The twelve principles are as follows:</p>
         
-        <h3>Squash And Stretch</h3>
-        <p>Squash and Stretch is when the subject (character or object) does what the name suggests during movement, giving the subject the illusion of volume and weight. The most common example of this is a bouncy ball in animation, where is squashes down on impact with the ground and stretches out when it flies back up into the air.</p>
-        <img src="images/bouncing_ball.png" alt="bouncing ball">
-        
-        <h3>Arc of Motion</h3>
-        <p>The bouncy ball example is also a good example of Arcs of Motion. Basically, nothing ever really moves perfectly straight. There’s always some form of curve that the subject would follow. In the picture above, our bouncy ball follows an arc on its path, cresting upwards before making its descent back to the ground.</p>
-        
-        <h3>Anticipation</h3>
-        <p>This is a tell, a preemptive action, that tells the audience what main action is about to happen and when. Before you attempt to make a leap, you might squat down in preparation. This would be the anticipatory action to the big leap.</p>
+        <button class="accordion"><h3>Squash And Stretch</h3></button>
+        <div class="panel">
+            <p>Squash and Stretch is when the subject (character or object) does what the name suggests during movement, giving the subject the illusion of volume and weight. The most common example of this is a bouncy ball in animation, where is squashes down on impact with the ground and stretches out when it flies back up into the air.</p>
+            <img src="images/bouncing_ball.png" alt="bouncing ball">
+        </div>
 
-        <h3>Slow in and Slow Out</h3>
-        <p>Think of Newton's Laws of Motion for this one, namely the first one: What starts at rest wants to stay at rest and what’s in motion stays in motion. Slow in and slow out incorporate this into an animated piece by having more sketches (frames) where the object would be slower and fewer sketches in where the object will be faster.</p>
+        <button class="accordion"><h3>Arc of Motion</h3></button>
+        <div class="panel">
+            <p>The bouncy ball example is also a good example of Arcs of Motion. Basically, nothing ever really moves perfectly straight. There’s always some form of curve that the subject would follow. In the picture above, our bouncy ball follows an arc on its path, cresting upwards before making its descent back to the ground.</p>
+        </div>
 
-        <h3>Follow-Through and Overlapping Action</h3>
-        <p>This principle is when the secondary parts of the main body of the subject follow along the path of motion. When a girl swiftly turns her head, her ponytail would be swung about thanks to the initial motion, the ponytail engaging in this principle.</p>
+        <button class="accordion"><h3>Anticipation</h3></button>
+        <div class="panel">
+            <p>This is a tell, a preemptive action, that tells the audience what main action is about to happen and when. Before you attempt to make a leap, you might squat down in preparation. This would be the anticipatory action to the big leap.</p>
+        </div>
+
+        <button class="accordion"><h3>Slow in and Slow Out</h3></button>
+        <div class="panel">
+            <p>Think of Newton's Laws of Motion for this one, namely the first one: What starts at rest wants to stay at rest and what’s in motion stays in motion. Slow in and slow out incorporate this into an animated piece by having more sketches (frames) where the object would be slower and fewer sketches in where the object will be faster.</p>
+        </div>
+
+        <button class="accordion"><h3>Follow-Through and Overlapping Action</h3></button>
+        <div class="panel">
+            <p>This principle is when the secondary parts of the main body of the subject follow along the path of motion. When a girl swiftly turns her head, her ponytail would be swung about thanks to the initial motion, the ponytail engaging in this principle.</p>
+        </div>
 
         <h3>Timing</h3>
         <p>Timing is the amount of frames per second, which would give you the speed of the actions. The more frame means a slower action and fewer frames gives you a faster action.</p>
@@ -76,6 +86,23 @@
             Your browser does not support the video tag.
         </video>
         <p>A basic, animated ball.</p>
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+        </script>
 
         <footer>
             <p>2024 - Alma Reynolds</p>
