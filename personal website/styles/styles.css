@@ -152,6 +152,60 @@ video {
     width: 50%;
 }
 
+#Sketch-intro {
+    text-align: center;
+}
+
+.sketch-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.sketch1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#flower-img {
+    display: block;
+    width: 100%;
+}
+
+.sd1 {
+    text-align: left;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.sketch2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-items: center;
+}
+
+#fox-img {
+    display: block;
+    width: 75%;
+}
+.sd2 {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.sketch3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+#robin-img {
+    display: block;
+    width: 100%;
+}
+.sd3 {
+    text-align: left;
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
 footer {
     background-color: #5D576B;
     color:#8884FF;
