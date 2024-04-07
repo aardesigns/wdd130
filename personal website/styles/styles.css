@@ -162,6 +162,7 @@ video {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 90%;
+    column-gap: 50px;
 }
 .sketch1 {
     grid-column: 1/2;
