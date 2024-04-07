@@ -208,6 +208,10 @@ video {
     grid-row: 4/5;
 }
 
+#Phys.intro {
+    text-align: center;
+}
+
 #dress1-img {
     display: block;
     width: 100%;
