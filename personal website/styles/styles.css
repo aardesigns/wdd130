@@ -88,6 +88,25 @@ nav a:hover {
 .linkedin {
     width: 65px;
 }
+#train {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#firetruck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}
+#balloon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .sketches {
     grid-column: 1/2;
     grid-row: 1/2;
