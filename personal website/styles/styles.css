@@ -255,10 +255,11 @@ video {
 .physical-grid {
     display: grid;
     align-items: center;
+    margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, 1fr);
+    width: 90%;
     column-gap: 50px;
-    row-gap: 50px;
 }
 
 .tangible1_1 {
